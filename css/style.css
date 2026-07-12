@@ -225,6 +225,7 @@ nav ul li a.active{ color:var(--rust); }
 ========================================================= */
 #services{ background:var(--card); }
 .service-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+.service-grid-2{ grid-template-columns:repeat(2,1fr); max-width:800px; margin:0 auto; }
 .service-card{
   background:var(--paper); border:1px solid var(--line);
   border-radius:var(--radius-lg); padding:38px 32px;
@@ -307,6 +308,7 @@ nav ul li a.active{ color:var(--rust); }
    PRICING
 ========================================================= */
 .pricing-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; align-items:stretch; }
+.pricing-grid-2{ grid-template-columns:repeat(2,1fr); max-width:700px; margin:0 auto; }
 .price-card{
   background:var(--card); border:1px solid var(--line); border-radius:var(--radius-lg);
   padding:40px 32px; text-align:center; position:relative;
